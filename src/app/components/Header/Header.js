@@ -166,7 +166,7 @@ const Header = () => {
             <div key={link.name} className="relative">
               <a
                 href={link.href}
-                className="text-white-500 hover:text-neutral-400 px-3 py-2 rounded-md text-m font-medium transition-colors duration-200"
+                className="text-white-500 hover:text-neutral-400\ px-3 py-2 rounded-md text-m font-medium transition-colors duration-200"
                 onClick={link.name === "Categories" ? toggleCategories : null} // Toggle dropdown on click
                 aria-label={link.name}
               >
